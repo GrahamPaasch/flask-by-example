@@ -4,7 +4,7 @@ dataclasses
 Flask==1.1.2
 Flask-Migrate==2.5.2
 Flask-Script
-Flask-SQLAlchemy
+Flask-SQLAlchemy==2.4.1
 greenlet
 gunicorn
 importlib-metadata
@@ -16,7 +16,6 @@ psycopg2-binary
 python-dateutil
 python-editor
 six
-SQLAlchemy
 typing-extensions
 Werkzeug
 zipp
