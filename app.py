@@ -49,8 +49,9 @@ def count_and_save_words(url):
     no_stop_words = [w for w in raw_words if w.lower() not in stops]
     no_stop_words_count = Counter(no_stop_words)
 
-    # save the results
+# save the results
     try:
+        from models import Result
         result = Result(
             url=url,
             result_all=raw_word_count,
