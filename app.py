@@ -51,7 +51,6 @@ def count_and_save_words(url):
 
     # save the results
     try:
-        from models import Result
         result = Result(
             url=url,
             result_all=raw_word_count,
