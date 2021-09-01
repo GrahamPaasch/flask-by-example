@@ -1,3 +1,5 @@
+redis==3.4.1
+rq==1.2.2
 alembic==1.6.5
 astroid==2.7.2
 beautifulsoup4==4.8.2
