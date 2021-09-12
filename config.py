@@ -7,7 +7,7 @@ class Config(object):
     TESTING = False
     CSRF_ENABLED = True
     SECRET_KEY = 'this-really-needs-to-be-changed'
-    SQLALCHEMY_DATABASE_URI = os.environ['DATABASE_URL'].replace("://", "ql://", 1) or 'sqlite:///myDB.db'
+    SQLALCHEMY_DATABASE_URI = os.environ['DATABASE_URL'] or 'sqlite:///myDB.db'
 
 
 class ProductionConfig(Config):
